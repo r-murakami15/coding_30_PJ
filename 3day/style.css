@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+}
+
+
+
+#defaultCanvas0{
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding-top: 60px;
+}
+.container {
+  font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h3 {
+  text-align: center;
+  color: #FFF;
+  background-color: #000;
+  padding: 10px 16px 10px 40px;
+  border: 1px solid #FFF;
+}
+
+
+/* ここから下がボタンのCSS　*/
+.bnt-massage {
+  display: inline-block;
+  min-width: 130px;
+  text-align: center;
+  background-color: #000;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 16px 10px 40px;
+  position: relative;
+  transition: .9s;
+  border: 1px solid #FFF;
+}
+
+.bnt-massage:before {
+  font-family: "FontAwesome";
+  content: "\f0e0";
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.bnt-massage span {
+  display: block;
+  position: absolute;
+  background-color: #d9385f;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 34px;
+  font-size: 14px;
+  line-height: 34px;
+  border-radius: 0 0 8px 0;
+  z-index: -1;
+  transition: .5s;
+}
+
+.bnt-massage:hover  {
+  border-radius: 8px 0 0;
+}
+
+.bnt-massage:hover span {
+  transform: translateY(50px);
+}

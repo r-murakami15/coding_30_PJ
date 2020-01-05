@@ -1,0 +1,36 @@
+body {
+     padding-top: 20px;
+}
+
+.sub_detail {
+    text-align: center;
+}
+
+table.sample1 {
+    border: solid 1px #333333;
+    padding: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.days_th {
+    width: 100px;
+    background-color: blueviolet;
+}
+
+.what_th {
+    width: 500px;
+    background-color: #EE0000;
+}
+
+.days_td {
+    text-align: center;
+}
+
+a:visited{
+    color:#0000ff
+}

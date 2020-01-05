@@ -1,0 +1,33 @@
+p, h2 {
+  margin: 0;
+}
+
+.box {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid red;
+  padding: 1em;
+}
+
+.count {
+  font-size: 40px;
+  text-align: right;
+  padding: 0.25em 0.5em;
+  background-color: #333;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.mode {
+  margin-top: 12px;
+}
+
+.control {
+  position: relative;
+}
+
+.reset {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

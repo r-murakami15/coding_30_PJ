@@ -1,0 +1,45 @@
+body {
+  font-family: "Arial";
+}
+
+.header {
+  text-align: center;
+}
+#text-button {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #232323;
+}
+
+.questions {
+  background-color: #bdf7f1;
+  height: 150px;
+  margin: 10px 50px;
+}
+
+#question {
+  padding-left: 30px;
+}
+
+.submitArea{
+  text-align: center;
+}
+
+input {
+  text-align: left;
+  margin: 10px 100px 
+}
+
+.submit{
+  display: inline-block;
+  text-align: center;
+  width:300px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+  background:#dee7ec;
+  color:#889eab;
+}
