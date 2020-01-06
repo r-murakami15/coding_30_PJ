@@ -1,0 +1,70 @@
+html, body {
+  font-family: "Avenir Next";
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgb(75, 189, 0);
+  display: flex;
+  width: 100%;
+  height: 56px;
+}
+
+.header-logo a{
+  color: #FFF;
+  font-size: 30px;
+  font: bold;
+  text-decoration: none;
+  float: left;
+  padding: 8px 20px;
+}
+li {
+  color: #FFF;
+  list-style: none;
+  float: left;
+  padding: 0px 10px;
+}
+
+.comment {
+  margin-left: 1.5em;
+}
+
+.inner-2 h2 {
+  border-bottom: inset 1px gray;
+  margin-top: 2.2em;
+  margin-bottom: 2.4rem;
+  margin-left: 1.0em;
+  margin-right: 1.0em;
+}
+
+.adjust-box {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.box {
+  flex: 1 1 100%;
+}
+
+.inner-1 {
+  background: #EEE;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+.inner-2 {
+  background: #FFF;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.inner-3 {
+  background: #DDD;
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+.adjust-box p {
+  line-height:2.5em;
+}
