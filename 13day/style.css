@@ -1,0 +1,39 @@
+html body {
+    margin: 0;
+    background: #EEE;
+}
+
+#box {
+    background: rgb(80, 80, 240);
+    color: #FFF;
+    border: solid 1px #000;
+    width: 100px;
+    height: 100px;
+    margin:10px 10px;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+}
+
+#dropArea1{
+    border:dotted 1px #000;
+    width:300px;
+    height:300px;
+    margin:10px 10px;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+  }
+  
+#dropArea2{
+    border:dotted 1px #000;
+    width:300px;
+    height:300px;
+    margin:10px 10px;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+  }

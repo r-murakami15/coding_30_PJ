@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  
+}
+
+.left {
+  background: #999;
+  flex-shrink: 0;
+  width: 150px;
+}
+
+.contents{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  columns: 3;
+}
+
+.content {
+  margin: 10px;
+}
+
+@media (max-width: 1000px) {
+  .contents {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 760px) {
+  .contents {
+    column-count: 1;
+  }
+}
