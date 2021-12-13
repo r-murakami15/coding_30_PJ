@@ -1,3 +1,5 @@
-coding_30_PJ
+# Cording 30 days
 
-[github.io](https://r-murakami15.github.io/coding_30_PJ/)
+自分のクソコードを晒していくとっても楽しいリポジトリだょ
+
+[github.io](https://r-murakami15.github.io/let-s_kuso_code/)
